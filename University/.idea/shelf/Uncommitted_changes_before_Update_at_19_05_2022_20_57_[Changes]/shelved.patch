@@ -1,0 +1,220 @@
+Index: out/production/University/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/University/.idea/vcs.xml b/out/production/University/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1652972057845)
++++ b/out/production/University/.idea/vcs.xml	(date 1652972057845)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: out/production/University/University.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/University/University.iml b/out/production/University/University.iml
+new file mode 100644
+--- /dev/null	(date 1652972057785)
++++ b/out/production/University/University.iml	(date 1652972057785)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: out/production/University/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/University/.idea/misc.xml b/out/production/University/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1652972057828)
++++ b/out/production/University/.idea/misc.xml	(date 1652972057828)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: out/production/University/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/University/.idea/workspace.xml b/out/production/University/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1652972057812)
++++ b/out/production/University/.idea/workspace.xml	(date 1652972057812)
+@@ -0,0 +1,68 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="55ae0a1f-19f2-467d-8962-6a153765bca6" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/Address.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Group.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/People.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Teacher.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../animals/src/base/Animal.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../animals/src/main/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../animals/src/medicine/Vet.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../animals/src/types/Cat.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../animals/src/types/Dog.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../animals/src/types/Horse.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../massives/src/Mass1.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../massives/src/NeProstyie.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../massives/src/SortConnection.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../massives/src/SortInsert.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../massives/src/SortSelection.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../massives/src/VklucheniaVMassive.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../../recursivnie/src/Main.java" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectId" id="29O6PzcflWkXT0KplwS8YgD1xMh" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="autoscrollFromSource" value="true" />
++    <option name="autoscrollToSource" value="true" />
++    <option name="flattenModules" value="true" />
++    <option name="flattenPackages" value="true" />
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showExcludedFiles" value="false" />
++    <option name="showLibraryContents" value="true" />
++    <option name="showMembers" value="true" />
++    <option name="showVisibilityIcons" value="true" />
++    <option name="sortByType" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "last_opened_file_path": "C:/Repository/University/src"
++  }
++}]]></component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="55ae0a1f-19f2-467d-8962-6a153765bca6" name="Changes" comment="" />
++      <created>1652971764960</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1652971764960</updated>
++    </task>
++    <servers />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1652465415003)
++++ b/.idea/modules.xml	(date 1652465415003)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/University.iml" filepath="$PROJECT_DIR$/University.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: out/production/University/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/University/.idea/modules.xml b/out/production/University/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1652972057812)
++++ b/out/production/University/.idea/modules.xml	(date 1652972057812)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/University.iml" filepath="$PROJECT_DIR$/University.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1652465420704)
++++ b/.idea/.gitignore	(date 1652465420704)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1652465465017)
++++ b/.idea/misc.xml	(date 1652465465017)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="18" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1652465465035)
++++ b/.idea/vcs.xml	(date 1652465465035)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
