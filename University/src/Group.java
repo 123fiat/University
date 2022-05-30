@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class Group {
 	/*Создайте класс Address, который содержит поля: город, улица, дом, квартира.
@@ -41,7 +42,7 @@ public class Group {
 
     @Override
     public String toString() {
-        return this.tytle + "\n" + this.course + "\n" + getStudents() + "\n" + this.teacher.toString();
+        return this.tytle + "\n" + this.course + "\n" + Arrays.toString (students) + "\n" + this.teacher.toString();
     }
 
     Student[] getStudents() {
@@ -64,7 +65,7 @@ public class Group {
                 for (int i = 0; i < students1.length; i++) {
                     students1[i] = students[i];
         }
-        this.students = students1;
+        students = students1;
     }
 
     public void addStudent(Student addStudent) {

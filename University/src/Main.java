@@ -27,17 +27,18 @@ public class Main {
         Group group = new Group("group1", 1, students1, Teacher2);
         System.out.println(group);
         group.deleteStudent(StudentMisha);
-        group.mass(students1);
-        Student[] studenti = group.getStudents();
-        group.mass(studenti);
-        System.out.println(Teacher1.getoklad());
-        System.out.println(Teacher1.getoplataMonth());
-        Teacher1.setoklad(119);
-        System.out.println(Teacher1.getoklad());
-        System.out.println(Teacher1.getoplataMonth());
-
         System.out.println(group);
-        addressTeacher2.setcity("Vitebsk");
-        System.out.println(group);
+//        group.mass(students1);
+//        Student[] studenti = group.getStudents();
+//        group.mass(studenti);
+//        System.out.println(Teacher1.getoklad());
+//        System.out.println(Teacher1.getoplataMonth());
+//        Teacher1.setoklad(119);
+//        System.out.println(Teacher1.getoklad());
+//        System.out.println(Teacher1.getoplataMonth());
+//
+//        System.out.println(group);
+//        addressTeacher2.setcity("Vitebsk");
+//        System.out.println(group);
     }
 }

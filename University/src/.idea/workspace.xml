@@ -2,25 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55ae0a1f-19f2-467d-8962-6a153765bca6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../animals/src/base/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../animals/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../animals/src/medicine/Vet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../animals/src/types/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../animals/src/types/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../animals/src/types/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../massives/src/Mass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../massives/src/NeProstyie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../massives/src/SortConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../massives/src/SortInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../massives/src/SortSelection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../massives/src/VklucheniaVMassive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../recursivnie/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/production/University/University.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homeTask8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homeTask8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homeTask8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homeTask8/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homeTask8/homeTask8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homeTask8/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson8/out/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson8/out/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson8/out/.idea/lesson8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson8/out/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson8/out/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson8/out/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson8/out/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson8/out/base/Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson8/out/base/Football.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson8/out/base/Hockey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson8/out/base/Sport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson8/out/model/AmericanFootball.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lesson8/out/model/iceHockey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +53,30 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Repository/University/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Repository/University/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="University" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,5 +87,37 @@
       <updated>1652971764960</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Group.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Group.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="students1" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -1,0 +1,1187 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 4f4c31ba7226342bb263f9f8e5ffb17d29f8f099)
++++ b/.idea/misc.xml	(date 1653071643315)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_18_PREVIEW" project-jdk-name="18" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: ../lesson8/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/src/Main.java b/../lesson8/src/Main.java
+new file mode 100644
+--- /dev/null	(date 1653071235472)
++++ b/../lesson8/src/Main.java	(date 1653071235472)
+@@ -0,0 +1,42 @@
++import model.AmericanFootball;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public class Main {
++    public static void main(String[] args) {
++
++        /*System.out.println("Hello world!");*/
++        List<Integer> listint2 = new ArrayList<Integer>(){{
++            add (13);
++            add (41);
++        }};
++        ArrayList<Integer> listint = new ArrayList<Integer>(){{
++            add (10);
++            add (15);
++            add (13);
++            add (41);
++        }};
++        listint.addAll(listint2);
++//        listint.add(5);
++//        listint.add(10);
++//        listint.add(15);
++//        listint.add(20);
++//        listint.add(25);
++//        listint.size();
++        listint.forEach(i -> System.out.println(i));
++        listint.forEach(i -> {
++            if (i > 5) {
++                System.out.println("more ten 5");
++            } else {
++                System.out.println("more ten 5");
++            }
++        });
++        int zn = listint.get(4);
++        AmericanFootball a1 = new AmericanFootball("Ok", 2,10,11,10 );
++        ArrayList<AmericanFootball> listFootbal = new ArrayList<>();
++        listFootbal.add (a1);
++        listFootbal.forEach(a -> System.out.println(a));
++
++    }
++}
+Index: ../strings1/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../strings1/.idea/.gitignore b/../strings1/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1653057830329)
++++ b/../strings1/.idea/.gitignore	(date 1653057830329)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: ../strings1/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../strings1/.idea/misc.xml b/../strings1/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1653057830065)
++++ b/../strings1/.idea/misc.xml	(date 1653057830065)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="18" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../strings1/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../strings1/.idea/vcs.xml b/../strings1/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1653057830074)
++++ b/../strings1/.idea/vcs.xml	(date 1653057830074)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../strings1/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../strings1/.idea/modules.xml b/../strings1/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1653057830052)
++++ b/../strings1/.idea/modules.xml	(date 1653057830052)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/strings1.iml" filepath="$PROJECT_DIR$/strings1.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1653071722247)
++++ b/.idea/modules.xml	(date 1653071722247)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/University.iml" filepath="$PROJECT_DIR$/University.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: ../strings1/strings1.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../strings1/strings1.iml b/../strings1/strings1.iml
+new file mode 100644
+--- /dev/null	(date 1653057830021)
++++ b/../strings1/strings1.iml	(date 1653057830021)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: ../strings1/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../strings1/src/Main.java b/../strings1/src/Main.java
+new file mode 100644
+--- /dev/null	(date 1653056897170)
++++ b/../strings1/src/Main.java	(date 1653056897170)
+@@ -0,0 +1,11 @@
++public class Main {
++    public static void main(String[] args) {
++
++        /*System.out.println("Hello world!");
++        * Напишите Java-программу для удаления всех пробелов из строки с помощью replace().*/
++        String str = "Hello world Hello world Hello world";
++
++    }
++ public static void del (String str){}
++    str.replace(" ", "");
++}
+\ No newline at end of file
+Index: ../stroki3/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../stroki3/.idea/.gitignore b/../stroki3/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1653029050935)
++++ b/../stroki3/.idea/.gitignore	(date 1653029050935)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: ../stroki3/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../stroki3/.idea/misc.xml b/../stroki3/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1653029044370)
++++ b/../stroki3/.idea/misc.xml	(date 1653029044370)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="18" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../stroki3/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../stroki3/.idea/vcs.xml b/../stroki3/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1653029044389)
++++ b/../stroki3/.idea/vcs.xml	(date 1653029044389)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../stroki3/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../stroki3/.idea/modules.xml b/../stroki3/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1653029044353)
++++ b/../stroki3/.idea/modules.xml	(date 1653029044353)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/stroki3.iml" filepath="$PROJECT_DIR$/stroki3.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: ../stroki3/stroki3.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../stroki3/stroki3.iml b/../stroki3/stroki3.iml
+new file mode 100644
+--- /dev/null	(date 1653029044333)
++++ b/../stroki3/stroki3.iml	(date 1653029044333)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: ../stroki3/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../stroki3/src/Main.java b/../stroki3/src/Main.java
+new file mode 100644
+--- /dev/null	(date 1653038478250)
++++ b/../stroki3/src/Main.java	(date 1653038478250)
+@@ -0,0 +1,28 @@
++public class Main {
++    public static void main(String[] args) {
++
++        //System.out.println("Hello world!");
++        /*Дана строка “25 + 40 = 65”.  Замените символ “=” на слово “равно”.
++        Создать два метода. В первом используйте методы StringBuilder.insert(),
++        StringBuilder.deleteCharAt(). Во втором методы StringBuilder.replace().
++*/
++        StringBuilder first = new StringBuilder("25 + 40 = 65");
++        StringBuilder third = new StringBuilder("25 + 40 = 65");
++        StringBuilder second = new StringBuilder("equals");
++        changeChar(first, second);
++        changeChar2(third);
++    }
++    public static void changeChar(StringBuilder str, StringBuilder str1) {
++        int x = str.indexOf("=");
++        str.deleteCharAt(x);
++        str.insert(x, str1);
++        System.out.println(str);
++    }
++
++    public static void changeChar2(StringBuilder str) {
++        String str1 = "equals";
++        int x = str.indexOf("=");
++        str.replace(x, x + 1, str1);
++        System.out.println(str);
++    }
++}
+\ No newline at end of file
+Index: ../stroki2/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../stroki2/.idea/misc.xml b/../stroki2/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1653023611299)
++++ b/../stroki2/.idea/misc.xml	(date 1653023611299)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="18" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../stroki2/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../stroki2/.idea/vcs.xml b/../stroki2/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1653023614456)
++++ b/../stroki2/.idea/vcs.xml	(date 1653023614456)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../lesson8/.idea/libraries/KotlinJavaRuntime.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/.idea/libraries/KotlinJavaRuntime.xml b/../lesson8/.idea/libraries/KotlinJavaRuntime.xml
+new file mode 100644
+--- /dev/null	(date 1653065392279)
++++ b/../lesson8/.idea/libraries/KotlinJavaRuntime.xml	(date 1653065392279)
+@@ -0,0 +1,26 @@
++<component name="libraryTable">
++  <library name="KotlinJavaRuntime" type="repository">
++    <properties maven-id="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10" />
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.10/kotlin-stdlib-jdk8-1.6.10.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.6.10/kotlin-stdlib-1.6.10.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/13.0/annotations-13.0.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.10/kotlin-stdlib-common-1.6.10.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.10/kotlin-stdlib-jdk7-1.6.10.jar!/" />
++    </CLASSES>
++    <JAVADOC>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.10/kotlin-stdlib-jdk8-1.6.10-javadoc.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.6.10/kotlin-stdlib-1.6.10-javadoc.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/13.0/annotations-13.0-javadoc.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.10/kotlin-stdlib-common-1.6.10-javadoc.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.10/kotlin-stdlib-jdk7-1.6.10-javadoc.jar!/" />
++    </JAVADOC>
++    <SOURCES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.10/kotlin-stdlib-jdk8-1.6.10-sources.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.6.10/kotlin-stdlib-1.6.10-sources.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.6.10/kotlin-stdlib-common-1.6.10-sources.jar!/" />
++      <root url="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.10/kotlin-stdlib-jdk7-1.6.10-sources.jar!/" />
++    </SOURCES>
++  </library>
++</component>
+\ No newline at end of file
+Index: ../stroki2/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../stroki2/.idea/modules.xml b/../stroki2/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1653023611282)
++++ b/../stroki2/.idea/modules.xml	(date 1653023611282)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/stroki2.iml" filepath="$PROJECT_DIR$/stroki2.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: ../stroki2/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../stroki2/.idea/workspace.xml b/../stroki2/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1653071235515)
++++ b/../stroki2/.idea/workspace.xml	(date 1653071235515)
+@@ -0,0 +1,126 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="3223bfbd-3c44-4a3a-96ce-9074d3732c49" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/../University/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2022_21_07_[Changes]/shelved.patch" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/.idea/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/.idea/uiDesigner.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/lesson8.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/base/Event.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/base/Football.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/base/Hockey.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/base/Sport.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/model/AmericanFootball.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/model/iceHockey.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../strings1/.idea/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../strings1/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../strings1/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../strings1/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../strings1/src/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../strings1/strings1.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki/stroki.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/out/production/stroki2/Main.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/stroki2.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/.idea/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/out/production/stroki3/Main.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/src/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/stroki3.iml" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectId" id="29PnV4dhp6vdzRmkQP8d2dbwtLz" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="autoscrollFromSource" value="true" />
++    <option name="autoscrollToSource" value="true" />
++    <option name="flattenModules" value="true" />
++    <option name="flattenPackages" value="true" />
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showExcludedFiles" value="false" />
++    <option name="showLibraryContents" value="true" />
++    <option name="showMembers" value="true" />
++    <option name="showVisibilityIcons" value="true" />
++    <option name="sortByType" value="true" />
++  </component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
++  }
++}</component>
++  <component name="RunManager">
++    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Main" />
++      <module name="stroki2" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.Main" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="3223bfbd-3c44-4a3a-96ce-9074d3732c49" name="Changes" comment="" />
++      <created>1653023610253</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1653023610253</updated>
++    </task>
++    <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/Main.java</url>
++          <line>38</line>
++          <option name="timeStamp" value="1" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/Main.java</url>
++          <line>40</line>
++          <option name="timeStamp" value="2" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
++  </component>
++</project>
+\ No newline at end of file
+Index: ../lesson8/.idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/.idea/uiDesigner.xml b/../lesson8/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1653065392340)
++++ b/../lesson8/.idea/uiDesigner.xml	(date 1653065392340)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: ../stroki2/stroki2.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../stroki2/stroki2.iml b/../stroki2/stroki2.iml
+new file mode 100644
+--- /dev/null	(date 1653023611247)
++++ b/../stroki2/stroki2.iml	(date 1653023611247)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: ../lesson8/src/model/iceHockey.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/src/model/iceHockey.java b/../lesson8/src/model/iceHockey.java
+new file mode 100644
+--- /dev/null	(date 1653066398935)
++++ b/../lesson8/src/model/iceHockey.java	(date 1653066398935)
+@@ -0,0 +1,30 @@
++package model;
++
++import base.Hockey;
++
++public class iceHockey implements Hockey {
++    @Override
++    public void endOfPeriod(int period) {
++
++    }
++
++    @Override
++    public void start() {
++
++    }
++
++    @Override
++    public void end() {
++
++    }
++
++    @Override
++    public void setHomeTeam(String name) {
++
++    }
++
++    @Override
++    public void setVisitingTeam(String name) {
++
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"de8dc606-dc69-411a-9808-b582cf86f74d\" name=\"Changes\" comment=\"first commit\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"297Y5tCPWxJgwnZb9tU238R00q6\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Repository/lesson71/src/Main.java&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Repository\\University\\src\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"University\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"de8dc606-dc69-411a-9808-b582cf86f74d\" name=\"Changes\" comment=\"\" />\r\n      <created>1652465413456</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1652465413456</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first commit\">\r\n      <created>1652982575894</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652982575894</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"first commit\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 4f4c31ba7226342bb263f9f8e5ffb17d29f8f099)
++++ b/.idea/workspace.xml	(date 1653071722253)
+@@ -1,7 +1,47 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="de8dc606-dc69-411a-9808-b582cf86f74d" name="Changes" comment="first commit" />
++    <list default="true" id="de8dc606-dc69-411a-9808-b582cf86f74d" name="Changes" comment="first commit">
++      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2022_21_07_[Changes]/shelved.patch" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/.idea/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/.idea/uiDesigner.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/lesson8.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/base/Event.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/base/Football.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/base/Hockey.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/base/Sport.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/model/AmericanFootball.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../lesson8/src/model/iceHockey.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../strings1/.idea/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../strings1/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../strings1/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../strings1/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../strings1/src/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../strings1/strings1.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki/stroki.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki2/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki2/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki2/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki2/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki2/out/production/stroki2/Main.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki2/src/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki2/stroki2.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/.idea/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/out/production/stroki3/Main.class" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/src/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../stroki3/stroki3.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/University.iml" beforeDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -26,14 +66,18 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Repository/lesson71/src/Main.java&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "jdk.selected.JAVA_MODULE": "18",
++    "last_opened_file_path": "C:/Repository/University",
++    "project.structure.last.edited": "Modules",
++    "project.structure.proportion": "0.15",
++    "project.structure.side.proportion": "0.2",
++    "settings.editor.selected.configurable": "preferences.lookFeel"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Repository\University\src" />
+Index: ../stroki2/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../stroki2/src/Main.java b/../stroki2/src/Main.java
+new file mode 100644
+--- /dev/null	(date 1653034271430)
++++ b/../stroki2/src/Main.java	(date 1653034271430)
+@@ -0,0 +1,56 @@
++public class Main {
++    public static void main(String[] args) {
++
++        //System.out.println("Hello world!");
++        /*Даны произвольные 2 строки: Создайте 2 метода,
++         каждый из которых будет принимать на вход 2 строки,
++          а результатом работы методов будет значение типа boolean.
++           Если последнии 5 символов существуют и равны, то вернуть значение true,
++           иначе false. Первый метод использует команду equals, второй - equalsIgnoreCase
++        В консоль вывести значения строк, которые мы сравнивает, получаемые подстроки.
++        Если вернулось значение true вывести фразу:  “Последние 5 символов совпадают”,
++        если false - “Последние 5 символов не совпадают”
++        К предыдущей задаче добавить метод, который должен использовать функцию endsWith() для сравнения.
++        К предыдущей задаче добавить метод, который ищет символ “Я”,
++        и если в обоих строках найдена эта буква вывести в консоль фразу:
++         символ Я существует в обоих строках, иначе вывести:  символ Я не существует в обоих строках
++
++         */
++        String first = new String("Hello");
++        String second = new String("Hello hello");//It is preferable to replace the second word 'hello' with word 'World' to check the code totally.
++        System.out.println("Initial phrases are " + first.concat(" and ").concat(second));
++
++        boolean compare = compare(first, second);
++        System.out.println("Tested phrases are " + first.substring(first.length() - 5).concat(" and ").concat(second.substring(second.length() - 5)));
++        System.out.println(compare);
++        if (compare) {
++            System.out.println("The last 5 letters are equal");
++        } else System.out.println("The last 5 letters are not equal");
++
++        boolean finalPhrase = finalPhrase(first, second);
++        if (finalPhrase) {
++            System.out.println("Both Phrases end with letters Hello");
++        } else System.out.println("Both Phrases don't end with letters Hello");
++        searchLetter(first, second);
++    }
++
++
++    public static boolean compare(String str1, String str2) {
++        int y = str1.length();
++        int z = str2.length();
++        boolean test = (y >= 5) && (z >= 5);
++        return str1.substring(y - 5).equals(str2.substring(z - 5)) && test;
++    }
++
++    public static boolean finalPhrase(String str1, String str2) {
++        return str1.endsWith("Hello") && str2.endsWith("Hello");
++    }
++
++    public static void searchLetter(String str1, String str2) {
++        int char1 = str1.indexOf('W');
++        int char2 = str2.indexOf('W');
++        if ((char1 >= 0) && (char2 >= 0)) {
++            System.out.println("Letter W is in both phrases");
++        } else System.out.println("There is no letter W is in both phrases");
++    }
++}
+Index: ../lesson8/src/base/Hockey.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/src/base/Hockey.java b/../lesson8/src/base/Hockey.java
+new file mode 100644
+--- /dev/null	(date 1653065391550)
++++ b/../lesson8/src/base/Hockey.java	(date 1653065391550)
+@@ -0,0 +1,5 @@
++package base;
++
++public interface Hockey extends Sport, Event {
++    void endOfPeriod(int period);
++}
+Index: ../lesson8/src/model/AmericanFootball.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/src/model/AmericanFootball.java b/../lesson8/src/model/AmericanFootball.java
+new file mode 100644
+--- /dev/null	(date 1653070450934)
++++ b/../lesson8/src/model/AmericanFootball.java	(date 1653070450934)
+@@ -0,0 +1,46 @@
++package model;
++
++import base.Football;
++
++public class AmericanFootball implements Football {
++
++    String name;
++    int perid;
++    int teamQuantity;
++    int playerQuantity;
++    int yearGames;
++
++    public AmericanFootball(String name, int perid, int teamQuantity, int playerQuantity, int yearGames) {
++        this.name = name;
++        this.perid = perid;
++        this.teamQuantity = teamQuantity;
++        this.playerQuantity = playerQuantity;
++        this.yearGames = yearGames;
++    }
++
++    @Override
++    public void endOfPeriod(int period) {
++        this.perid = period;
++
++    }
++
++    @Override
++    public void setHomeTeam(String name) {
++        this.name = name;
++    }
++
++    @Override
++    public void setVisitingTeam(String name) {
++        this.name = name;
++    }
++
++    @Override
++    public String toString() {
++        return "AmericanFootball{" + "name='" + name + '\'' +
++                ", perid=" + perid +
++                ", teamQuantity=" + teamQuantity +
++                ", playerQuantity=" + playerQuantity +
++                ", yearGames=" + yearGames +
++                '}';
++    }
++}
+Index: ../lesson8/src/base/Event.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/src/base/Event.java b/../lesson8/src/base/Event.java
+new file mode 100644
+--- /dev/null	(date 1653066398935)
++++ b/../lesson8/src/base/Event.java	(date 1653066398935)
+@@ -0,0 +1,7 @@
++package base;
++
++public interface Event {
++public static final String TYPE = "type";
++    void start ();
++    void end ();
++}
+Index: ../lesson8/src/base/Football.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/src/base/Football.java b/../lesson8/src/base/Football.java
+new file mode 100644
+--- /dev/null	(date 1653065391550)
++++ b/../lesson8/src/base/Football.java	(date 1653065391550)
+@@ -0,0 +1,6 @@
++package base;
++
++public interface Football extends Sport {
++    void endOfPeriod(int period);
++
++}
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_19_05_2022_21_07_[Changes]/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2022_21_07_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2022_21_07_[Changes]/shelved.patch
+new file mode 100644
+--- /dev/null	(date 1652983621982)
++++ b/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2022_21_07_[Changes]/shelved.patch	(date 1652983621982)
+@@ -0,0 +1,26 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"de8dc606-dc69-411a-9808-b582cf86f74d\" name=\"Changes\" comment=\"first commit\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"297Y5tCPWxJgwnZb9tU238R00q6\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Repository/lesson71/src/Main.java&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Repository\\University\\src\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"University\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"de8dc606-dc69-411a-9808-b582cf86f74d\" name=\"Changes\" comment=\"\" />\r\n      <created>1652465413456</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1652465413456</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"first commit\">\r\n      <created>1652982575894</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1652982575894</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"first commit\" />\r\n  </component>\r\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++diff --git a/.idea/workspace.xml b/.idea/workspace.xml
++--- a/.idea/workspace.xml	(revision 4f4c31ba7226342bb263f9f8e5ffb17d29f8f099)
+++++ b/.idea/workspace.xml	(date 1652983478798)
++@@ -69,7 +69,14 @@
++       <option name="project" value="LOCAL" />
++       <updated>1652982575894</updated>
++     </task>
++-    <option name="localTasksCounter" value="2" />
+++    <task id="LOCAL-00002" summary="first commit">
+++      <created>1652983376593</created>
+++      <option name="number" value="00002" />
+++      <option name="presentableId" value="LOCAL-00002" />
+++      <option name="project" value="LOCAL" />
+++      <updated>1652983376593</updated>
+++    </task>
+++    <option name="localTasksCounter" value="3" />
++     <servers />
++   </component>
++   <component name="Vcs.Log.Tabs.Properties">
+Index: ../lesson8/src/base/Sport.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/src/base/Sport.java b/../lesson8/src/base/Sport.java
+new file mode 100644
+--- /dev/null	(date 1653065391526)
++++ b/../lesson8/src/base/Sport.java	(date 1653065391526)
+@@ -0,0 +1,8 @@
++package base;
++
++public interface Sport {
++
++    public void setHomeTeam (String name);
++    void setVisitingTeam (String name);
++
++}
+\ No newline at end of file
+Index: ../lesson8/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/.idea/.gitignore b/../lesson8/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1653062735702)
++++ b/../lesson8/.idea/.gitignore	(date 1653062735702)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_19_05_2022_21_07__Changes_.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2022_21_07__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2022_21_07__Changes_.xml
+new file mode 100644
+--- /dev/null	(date 1653071603146)
++++ b/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2022_21_07__Changes_.xml	(date 1653071603146)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_Update_at_19_05_2022_21_07_[Changes]" date="1652983621982" recycled="false" toDelete="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_05_2022_21_07_[Changes]/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before Update at 19.05.2022 21:07 [Changes]" />
++</changelist>
+\ No newline at end of file
+Index: ../lesson8/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/.idea/vcs.xml b/../lesson8/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1653062735087)
++++ b/../lesson8/.idea/vcs.xml	(date 1653062735087)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../stroki/stroki.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../stroki/stroki.iml b/../stroki/stroki.iml
+new file mode 100644
+--- /dev/null	(date 1652983699193)
++++ b/../stroki/stroki.iml	(date 1652983699193)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: ../lesson8/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/.idea/misc.xml b/../lesson8/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1653062735071)
++++ b/../lesson8/.idea/misc.xml	(date 1653062735071)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="18" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../lesson8/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/.idea/modules.xml b/../lesson8/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1653062735042)
++++ b/../lesson8/.idea/modules.xml	(date 1653062735042)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/lesson8.iml" filepath="$PROJECT_DIR$/lesson8.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: ../lesson8/lesson8.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lesson8/lesson8.iml b/../lesson8/lesson8.iml
+new file mode 100644
+--- /dev/null	(date 1653065392233)
++++ b/../lesson8/lesson8.iml	(date 1653065392233)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
++  </component>
++</module>
+\ No newline at end of file
