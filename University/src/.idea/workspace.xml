@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55ae0a1f-19f2-467d-8962-6a153765bca6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/production/University/University.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homeTask8/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homeTask8/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homeTask8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homeTask8/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homeTask8/homeTask8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../homeTask8/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson8/out/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson8/out/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson8/out/.idea/lesson8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson8/out/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson8/out/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson8/out/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson8/out/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson8/out/base/Event.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson8/out/base/Football.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson8/out/base/Hockey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson8/out/base/Sport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson8/out/model/AmericanFootball.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lesson8/out/model/iceHockey.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
@@ -100,20 +79,6 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Group.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Group.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="students1" />

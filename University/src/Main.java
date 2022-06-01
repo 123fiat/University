@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
 
 
@@ -23,10 +25,19 @@ public class Main {
         //System.out.println(Teacher1);
         //   System.out.println(Teacher2);
 
-        Student[] students1 = new Student[]{StudentMisha, StudentJack, StudentKolia};
-        Group group = new Group("group1", 1, students1, Teacher2);
+        // Student[] students1 = new Student[]{StudentMisha, StudentJack, StudentKolia};
+        ArrayList<Student> students = new ArrayList<>() {{
+            add(StudentJack);
+            add(StudentKolia);
+            add(StudentMisha);
+        }};
+        Group group = new Group("group1", 1, students, Teacher2);
+
         System.out.println(group);
-        group.deleteStudent(StudentMisha);
+
+    group.deleteStudent(StudentMisha);
+    System.out.println(group);
+        group.addStudent(StudentMisha);
         System.out.println(group);
 //        group.mass(students1);
 //        Student[] studenti = group.getStudents();

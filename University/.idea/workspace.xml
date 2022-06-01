@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8dc606-dc69-411a-9808-b582cf86f74d" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/.idea/production/University/University.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homeTask8/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homeTask8/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homeTask8/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homeTask8/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homeTask8/homeTask8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homeTask8/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson8/out/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson8/out/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson8/out/.idea/lesson8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson8/out/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson8/out/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson8/out/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson8/out/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson8/out/base/Event.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson8/out/base/Football.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson8/out/base/Hockey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson8/out/base/Sport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson8/out/model/AmericanFootball.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lesson8/out/model/iceHockey.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Repository/University",
+    "last_opened_file_path": "C:/Repository/University/src",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>

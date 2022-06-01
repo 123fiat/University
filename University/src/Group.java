@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Group {
@@ -16,10 +17,11 @@ public class Group {
 
     private String tytle;
     private int course;
-    private Student[] students;
+    // private Student[] students;
+    ArrayList<Student> students;
     private Teacher teacher;
 
-    public Group(String tytle, int course, Student[] students, Teacher teacher) {
+    public Group(String tytle, int course, ArrayList<Student> students, Teacher teacher) {
         this.tytle = "group1";
         this.course = 1;
         this.students = students;
@@ -34,7 +36,7 @@ public class Group {
         return teacher;
     }
 
-    public void mass(Student[] students) {
+    public void listStudents(ArrayList<Student> students) {
         for (Student i : students) {
             System.out.println(i);
         }
@@ -42,38 +44,49 @@ public class Group {
 
     @Override
     public String toString() {
-        return this.tytle + "\n" + this.course + "\n" + Arrays.toString (students) + "\n" + this.teacher.toString();
+        return this.tytle + "\n" + this.course + "\n" + Arrays.toString(students.toArray()) + "\n" + this.teacher.toString();
     }
 
-    Student[] getStudents() {
+    ArrayList<Student> getStudents() {
         return students;
     }
 
-    public void setStudents(Student[] students) {
+    public void setStudents(ArrayList<Student> students) {
         this.students = students;
     }
 
+    /* public void deleteStudent(Student delStudent) {
+         Student[] students1 = new Student[students.length - 1];
+         for (int i = 0; i < students.length; i++) {
+             if (students[i] == delStudent) ;
+             students[i] = null;
+             for (int y = i; y < students.length - 1; y++) {
+                 students[y] = students[y+1];
+             }
+         }
+                 for (int i = 0; i < students1.length; i++) {
+                     students1[i] = students[i];
+         }
+         students = students1;
+     }*/
     public void deleteStudent(Student delStudent) {
-        Student[] students1 = new Student[students.length - 1];
-        for (int i = 0; i < students.length; i++) {
-            if (students[i] == delStudent) ;
-            students[i] = null;
-            for (int y = i; y < students.length - 1; y++) {
-                students[y] = students[y+1];
-            }
-        }
-                for (int i = 0; i < students1.length; i++) {
-                    students1[i] = students[i];
-        }
-        students = students1;
+        students.remove(delStudent);
     }
+       /*for (int i = 0; i < students.size(); i++) {
+       if (students.get(i)== delStudent){
+           students.remove(delStudent);
+       }*/
 
+    /* public void addStudent(Student addStudent) {
+         Student[] students1 = new Student[students.length + 1];
+         for (int i = 0; i < students.length; i++) {
+             students1[i] = students[i];
+             students1[students.length] = addStudent;
+         }
+         this.students = students1;
+     }
+     */
     public void addStudent(Student addStudent) {
-        Student[] students1 = new Student[students.length + 1];
-        for (int i = 0; i < students.length; i++) {
-            students1[i] = students[i];
-            students1[students.length] = addStudent;
-        }
-        this.students = students1;
+        students.add(addStudent);
     }
 }
