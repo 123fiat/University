@@ -39,6 +39,9 @@ public class Main {
     System.out.println(group);
         group.addStudent(StudentMisha);
         System.out.println(group);
+        StudentJack.setAge(15);
+        Teacher2.setAge(19);
+        System.out.println(StudentJack.getage());
 //        group.mass(students1);
 //        Student[] studenti = group.getStudents();
 //        group.mass(studenti);

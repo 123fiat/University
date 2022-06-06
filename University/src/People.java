@@ -3,21 +3,32 @@ public abstract class People {
     private String surname;
     private int age;
     private Address address;
-    protected People (String name, String surname, int age, Address address) {
+    public People(String name, String surname, int age, Address address) {
         this.name = name;
         this.surname = surname;
         this.age = age;
         this.address = address;
     }
+
     public void setName(String name) {
         this.name = name;
     }
     public void setSurname(String surname) {
         this.surname = surname;
     }
+
     public void setAge(int age) {
+//		try {
+//			studentYoungAgeCheck(age);
+//			OldAgeCheck(age);
         this.age = age;
+//	} catch (TooYoungAge | TooOldAge e) {
+//			e.fillInStackTrace();
+//		}
+//		}
+
     }
+
     public String getname() {
         return name;
     }

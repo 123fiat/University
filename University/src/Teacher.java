@@ -1,3 +1,8 @@
+import exceptions.TooOldAge;
+import exceptions.TooYoungAge;
+
+import static exceptions.checkAge.*;
+
 public class Teacher extends People {
 
     private double oklad = 100;
@@ -33,6 +38,18 @@ public class Teacher extends People {
     double getoplataMonth() {
         return oplataMonth();
 
+    }
+
+    @Override
+    public void setAge(int age) {
+        try {
+            teacherYoungAgeCheck(age);
+            oldAgeCheck(age);
+            super.setAge(age);
+        } catch (TooOldAge | TooYoungAge e) {
+            e.printStackTrace();//пишет где ошибка
+            System.out.println(e.getMessage());
+        }
     }
 
     @Override

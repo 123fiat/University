@@ -2,12 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55ae0a1f-19f2-467d-8962-6a153765bca6" name="Changes" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/exceptions/TooOldAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exceptions/TooYoungAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exceptions/WrongAgeExceptin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exceptions/checkAge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/production/University/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/production/University/People.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/People.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/production/University/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/production/University/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/Teacher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -39,6 +59,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="exceptions" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
