@@ -18,12 +18,16 @@ public class Group {
     private String tytle;
     private int course;
     // private Student[] students;
+    private int yearStartStuding;
+    private int yearFinishStuding;
     ArrayList<Student> students;
     private Teacher teacher;
 
-    public Group(String tytle, int course, ArrayList<Student> students, Teacher teacher) {
+    public Group(String tytle, int course, int yearStartStuding, int yearFinishStuding, ArrayList<Student> students, Teacher teacher) {
         this.tytle = "group1";
         this.course = 1;
+        this.yearStartStuding = yearStartStuding;
+        this.yearFinishStuding = yearFinishStuding;
         this.students = students;
         this.teacher = teacher;
     }
@@ -36,15 +40,9 @@ public class Group {
         return teacher;
     }
 
-    public void listStudents(ArrayList<Student> students) {
-        for (Student i : students) {
-            System.out.println(i);
-        }
-    }
-
     @Override
     public String toString() {
-        return this.tytle + "\n" + this.course + "\n" + Arrays.toString(students.toArray()) + "\n" + this.teacher.toString();
+        return this.tytle + "\n" + this.course + "\n" + this.yearStartStuding + "\n" + this.yearFinishStuding + "\n" + Arrays.toString(students.toArray()) + "\n" + this.teacher.toString();
     }
 
     ArrayList<Student> getStudents() {
@@ -55,6 +53,30 @@ public class Group {
         this.students = students;
     }
 
+    public void deleteStudent(Student delStudent) {
+        students.remove(delStudent);
+    }
+
+    public void addStudent(Student addStudent) {
+        students.add(addStudent);
+    }
+
+    public int getYearStartStuding() {
+        return yearStartStuding;
+    }
+
+    public void setYearStartStuding(int yearStartStuding) {
+        this.yearStartStuding = yearStartStuding;
+    }
+
+    public int getYearFinishStuding() {
+        return yearFinishStuding;
+    }
+
+    public void setYearFinishStuding(int yearFinishStuding) {
+        this.yearFinishStuding = yearFinishStuding;
+    }
+}
     /* public void deleteStudent(Student delStudent) {
          Student[] students1 = new Student[students.length - 1];
          for (int i = 0; i < students.length; i++) {
@@ -69,9 +91,7 @@ public class Group {
          }
          students = students1;
      }*/
-    public void deleteStudent(Student delStudent) {
-        students.remove(delStudent);
-    }
+
        /*for (int i = 0; i < students.size(); i++) {
        if (students.get(i)== delStudent){
            students.remove(delStudent);
@@ -86,7 +106,3 @@ public class Group {
          this.students = students1;
      }
      */
-    public void addStudent(Student addStudent) {
-        students.add(addStudent);
-    }
-}

@@ -1,14 +1,6 @@
 package exceptions;
 
 public class checkAge {
-//    public static void studentAgeCheck (int age) throws TooYoungAge {
-//        try {
-//            studentYoungAgeCheck(age);
-//
-//        }
-//    }
-
-
     public static void studentYoungAgeCheck (int age) throws TooYoungAge {
         if(age<16){
             throw new TooYoungAge("Student's age is too young");
@@ -24,5 +16,4 @@ public class checkAge {
             throw new TooOldAge("Age is too old");
         }
     }
-
 }

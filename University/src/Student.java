@@ -11,8 +11,9 @@ public class Student extends People {
       Cоздайте класс группа, который хранит в себе название группы, курс, одного ученика, преподавателя - куратора (Teacher).
       Необходимо создать группу, с методом изменения ученика в группе, с возможностью изменения куратора,
       у которого должна быть возможность изменить его заработную плату.*/
-    public Student(String name, String surname, int age, Address address) {
-        super(name, surname, age, address);
+
+    public Student(String name, String surname, int age, String gender, Address address) {
+        super(name, surname, age, gender, address);
     }
 
     @Override
@@ -22,14 +23,23 @@ public class Student extends People {
             oldAgeCheck(age);
             super.setAge(age);
         } catch (TooOldAge | TooYoungAge e) {
-			e.printStackTrace();//пишет где ошибка
-			System.out.println(e.getMessage());
+            e.printStackTrace();//пишет где ошибка
+            System.out.println(e.getMessage());
         }
     }
 
+    @Override
+    public String getGender() {
+        return super.getGender();
+    }
+
+    @Override
+    public void setGender(String gender) {
+        super.setGender(gender);
+    }
 
     @Override
     public String toString() {
-        return super.getname() + " " + super.getsurname() + " " + super.getage() + " " + super.getaddress();
+        return super.getname() + " " + super.getsurname() + " " + super.getage() + " " + super.getGender() + " " + super.getaddress();
     }
 }

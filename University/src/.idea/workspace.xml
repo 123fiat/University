@@ -2,20 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55ae0a1f-19f2-467d-8962-6a153765bca6" name="Changes" comment="second commit">
-      <change afterPath="$PROJECT_DIR$/exceptions/TooOldAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exceptions/TooYoungAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exceptions/WrongAgeExceptin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exceptions/checkAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Methodist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/production/University/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/production/University/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/production/University/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/Main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/production/University/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/production/University/People.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/People.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/production/University/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/production/University/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/production/University/exceptions/TooOldAge.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/exceptions/TooOldAge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/production/University/exceptions/TooYoungAge.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/exceptions/TooYoungAge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/production/University/exceptions/checkAge.class" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/production/University/exceptions/checkAge.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/People.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptions/TooOldAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions/TooOldAge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptions/TooYoungAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions/TooYoungAge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptions/checkAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/exceptions/checkAge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,16 +57,16 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Repository/University/src&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/studies/projects/sort/src",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="exceptions" />

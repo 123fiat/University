@@ -10,7 +10,7 @@ public class Address {
 	private int house;
 	private int flat;
 	
-	protected Address(String city, String street, int house, int flat) {
+	Address(String city, String street, int house, int flat) {
 		this.city = city;
 		this.street = street;
 		this.house = house;
