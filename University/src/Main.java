@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 
 public class Main {
@@ -17,8 +18,8 @@ public class Main {
         Student StudentKolia = new Student("Kolia", "Sidorov", 23, "young", addressStudentKolia);
         Student StudentJack = new Student("Jack", "Petrov", 19, "young", addressStudentJack);
 
-        Teacher Teacher1 = new Teacher("Sergei", "Sergeev", 40, "retired", addressTeacher1);
-        Teacher Teacher2 = new Teacher("Vassily", "Vasiliev", 50, "young", addressTeacher2);
+        Teacher Teacher1 = new Teacher("Sergei", "Sergeev", 40, "retired", addressTeacher1,130);
+        Teacher Teacher2 = new Teacher("Vassily", "Vasiliev", 50, "young", addressTeacher2, 120);
         Teacher1.setoklad(119);
         Teacher2.setoklad(118);
         Teacher1.setpremia(0.15);
@@ -58,12 +59,27 @@ public class Main {
         teachers.stream()
                 .sorted(Comparator.comparing(Teacher::getsurname))
                 .forEach(System.out::println);
+
+        Collections.sort(students);
+        System.out.println(students);
+
+        SortTeacher comp = new SortTeacher();
+        Collections.sort(teachers, comp);
+        System.out.println(teachers);
+
+        students.stream()
+                .sorted()
+                .forEach(System.out::println);
+
+        students.stream()
+                .sorted((o1, o2) -> o2.getname().compareTo(o1.getname()))
+                .forEach(System.out::println);
 //
 //        System.out.println(group);
 //
 //    group.deleteStudent(StudentMisha);
 //    System.out.println(group);
-//        group.addStudent(StudentMisha);
+//      group.addStudent(StudentMisha);
 //        System.out.println(group);
 //        StudentJack.setAge(15);
 //        Teacher2.setAge(19);

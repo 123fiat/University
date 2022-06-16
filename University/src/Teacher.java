@@ -5,11 +5,13 @@ import static exceptions.checkAge.oldAgeCheck;
 import static exceptions.checkAge.teacherYoungAgeCheck;
 
 public class Teacher extends People {
-    private double oklad = 100;
-    private double premia = 0.3;
+    private static double oklad = 100;
+    private static double premia = 0.3;
+    double oplataMonth;
 
-    public Teacher(String name, String surname, int age, String gender, Address address) {
+    public Teacher(String name, String surname, int age, String gender, Address address, double oplataMonth){
         super(name, surname, age, gender, address);
+        this.oplataMonth=oplataMonth;
     }
 
     public void setoklad(double oklad) {
@@ -50,7 +52,7 @@ public class Teacher extends People {
         return premia;
     }
 
-    protected double oplataMonth() {
+    protected static double oplataMonth() {
         double oplataMonth = oklad + oklad * premia;
         return oplataMonth;
     }

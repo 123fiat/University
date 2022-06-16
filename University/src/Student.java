@@ -4,7 +4,7 @@ import exceptions.TooYoungAge;
 import static exceptions.checkAge.oldAgeCheck;
 import static exceptions.checkAge.studentYoungAgeCheck;
 
-public class Student extends People {
+public class Student extends People implements Comparable<Student> {
     /*Создайте класс Address, который содержит поля: город, улица, дом, квартира.
      Создайте классы Teacher и Student,  которые содержит поля: имя, фамилия, возраст, адрес типа Address.
       Класс Teacher должен содержать метод расчеты заработной платы за месяц.
@@ -41,5 +41,8 @@ public class Student extends People {
     @Override
     public String toString() {
         return super.getname() + " " + super.getsurname() + " " + super.getage() + " " + super.getGender() + " " + super.getaddress();
+    }
+    public int compareTo (Student student){
+        return this.getage() - student.getage();
     }
 }
